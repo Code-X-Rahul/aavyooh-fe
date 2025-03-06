@@ -27,7 +27,7 @@ const IMAGES = [
         reduction.
       </Typography>
     ),
-
+    tag: "Circularity",
     src: "/hero.svg",
     alt: "Hero Icon",
   },
@@ -46,6 +46,7 @@ const IMAGES = [
         with AI-driven insights.
       </Typography>
     ),
+    tag: "Transparency",
     src: "/hero2.svg",
     alt: "Hero Icon",
   },
@@ -64,7 +65,7 @@ const IMAGES = [
         with AI-driven insights.
       </Typography>
     ),
-
+    tag: "Resilience",
     src: "/hero3.svg",
     alt: "Hero Icon",
   },
@@ -79,11 +80,17 @@ const HeroCarousel = () => {
       className="grid place-items-center  -translate-y-5 mx-auto"
     >
       <CarouselContent>
-        {IMAGES.map(({ src, alt, title, description }) => (
+        {IMAGES.map(({ src, alt, title, description, tag }) => (
           <CarouselItem
             key={src}
             className="grid place-items-center gap-4 text-center"
           >
+            <Typography
+              variant={"p"}
+              className="bg-[#C6D2BB30] text-[#1A322F] px-4 py-2 rounded-full font-bold"
+            >
+              {tag}
+            </Typography>
             {title}
             {description}
             <div className="flex items-center gap-5">
