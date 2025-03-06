@@ -11,7 +11,7 @@ const Header = () => {
       <div className="flex items-center gap-5">
         <ul>
           {[{ id: "team", label: "About Us" }].map((link) => (
-            <HeaderLink link={link} />
+            <HeaderLink key={link.id} link={link} />
           ))}
         </ul>
         <Button asChild>
