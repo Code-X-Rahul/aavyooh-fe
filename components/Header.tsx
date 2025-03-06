@@ -1,3 +1,4 @@
+import HeaderLink from "./HeaderLink";
 import { Button } from "./ui/button";
 import { Typography } from "./ui/typography";
 
@@ -9,13 +10,15 @@ const Header = () => {
       </Typography>
       <div className="flex items-center gap-5">
         <ul>
-          <li>
-            <a className="hover:underline cursor-pointer" href={"/#about"}>
-              About Us
-            </a>
-          </li>
+          {[{ id: "team", label: "About Us" }].map((link) => (
+            <HeaderLink link={link} />
+          ))}
         </ul>
-        <Button>Get in Touch</Button>
+        <Button asChild>
+          <a target="_blank" href={"https://calendly.com/shweta-aavyooh/30min"}>
+            Get in Touch
+          </a>
+        </Button>
       </div>
     </header>
   );

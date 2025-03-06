@@ -1,9 +1,9 @@
+import { Button } from "@/components/ui/button";
+import { Typography } from "@/components/ui/typography";
+import LayoutWrapper from "../../components/wrappers/LayoutWrapper";
 import Challenges from "./_components/challenges/Challenges";
 import Hero from "./_components/hero/Hero";
 import Solution from "./_components/solution/Solution";
-import LayoutWrapper from "../../components/wrappers/LayoutWrapper";
-import { Typography } from "@/components/ui/typography";
-import { Button } from "@/components/ui/button";
 import Strategy from "./_components/strategy/Strategy";
 import Team from "./_components/team/Team";
 
@@ -28,7 +28,11 @@ export default function Home() {
           sustainable, reduce waste, and optimize your operations for a cleaner,
           greener future.
         </Typography>
-        <Button size={"xl"}>Request a demo</Button>
+        <Button size={"xl"} asChild>
+          <a target="_blank" href={"https://calendly.com/shweta-aavyooh/30min"}>
+            Request a demo
+          </a>
+        </Button>
       </LayoutWrapper>
     </>
   );
