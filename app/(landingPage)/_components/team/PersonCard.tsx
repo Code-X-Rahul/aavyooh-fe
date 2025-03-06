@@ -1,5 +1,4 @@
 import { Typography } from "@/components/ui/typography";
-import { LinkedinIcon } from "lucide-react";
 import Image from "next/image";
 import { TeamPerson } from "./Team";
 
@@ -34,7 +33,7 @@ const PersonCard = ({
           >
             {name}
           </Typography>
-          <LinkedinIcon />
+          <Image src="/linkedin.svg" alt="linkedin" width={18} height={18} />
         </div>
         <Typography variant={"span"} className="font-bold">
           {position}
