@@ -3,7 +3,7 @@ import { Typography } from "./ui/typography";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center py-5 px-10 bg-white shadow">
+    <header className="flex justify-between items-center py-5 px-10 glass shadow sticky top-0 z-50">
       <Typography variant={"h5"} className="font-bold">
         Aavyooh
       </Typography>
