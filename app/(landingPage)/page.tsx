@@ -5,6 +5,7 @@ import LayoutWrapper from "../../components/wrappers/LayoutWrapper";
 import { Typography } from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
 import Strategy from "./_components/strategy/Strategy";
+import Team from "./_components/team/Team";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <Solution />
 
       <Strategy />
+
+      <Team />
       <LayoutWrapper className="text-center lg:py-14 gap-5">
         <Typography variant={"h3"} className="font-bold max-w-prose">
           Ready to build a{" "}
