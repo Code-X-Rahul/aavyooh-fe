@@ -1,7 +1,5 @@
-import React from "react";
-import { Typography } from "./ui/typography";
 import { Button } from "./ui/button";
-import Link from "next/link";
+import { Typography } from "./ui/typography";
 
 const Header = () => {
   return (

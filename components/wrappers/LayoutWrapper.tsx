@@ -1,13 +1,11 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 
-type Props = {};
-
 const LayoutWrapper = ({
   className,
   children,
   ...props
-}: React.ComponentProps<"div"> & Props) => {
+}: React.ComponentProps<"div">) => {
   return (
     <div
       className={cn(
