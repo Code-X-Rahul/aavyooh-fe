@@ -1,8 +1,7 @@
-import React from "react";
-import { TeamPerson } from "./Team";
-import Image from "next/image";
 import { Typography } from "@/components/ui/typography";
 import { LinkedinIcon } from "lucide-react";
+import Image from "next/image";
+import { TeamPerson } from "./Team";
 
 const PersonCard = ({
   description,
