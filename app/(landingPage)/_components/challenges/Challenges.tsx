@@ -1,5 +1,6 @@
 import { Typography } from "@/components/ui/typography";
 import LayoutWrapper from "@/components/wrappers/LayoutWrapper";
+import Image from "next/image";
 
 const CHALLENGES = [
   {
@@ -68,7 +69,16 @@ const Challenges = () => {
               key={challenge.title}
               className="flex flex-col gap-2 items-center justify-center text-primary-foreground border-2 border-dashed border-primary px-5 py-10 bg-[#FFFFFF08]"
             >
-              <img src={challenge.icon} alt={challenge.title} />
+              <Image
+                width={0}
+                height={0}
+                loading="lazy"
+                fetchPriority="low"
+                layout="responsive"
+                className="max-w-14 max-h-14"
+                src={challenge.icon}
+                alt={challenge.title}
+              />
               <Typography
                 variant={"p"}
                 className="font-bold  text-primary-foreground text-center"

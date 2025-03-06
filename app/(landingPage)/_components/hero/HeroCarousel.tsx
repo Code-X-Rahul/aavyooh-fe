@@ -5,6 +5,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 const IMAGES = [
   {
@@ -32,11 +33,15 @@ const HeroCarousel = () => {
       <CarouselContent>
         {IMAGES.map(({ src, alt }) => (
           <CarouselItem key={src} className=" flex items-center justify-center">
-            <img
-              loading="eager"
+            <Image
+              width={0}
+              height={0}
+              loading="lazy"
+              fetchPriority="low"
+              layout="responsive"
               src={src}
               alt={alt}
-              className="max-w-full max-h-full"
+              className="max-w-[800px] max-h-[450px]"
             />
           </CarouselItem>
         ))}
