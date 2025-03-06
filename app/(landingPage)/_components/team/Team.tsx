@@ -1,6 +1,7 @@
 import LayoutWrapper from "@/components/wrappers/LayoutWrapper";
 import React from "react";
 import PersonCard from "./PersonCard";
+import { Typography } from "@/components/ui/typography";
 
 export interface TeamPerson {
   name: string;
@@ -61,7 +62,10 @@ const TEAM: Array<TeamPerson> = [
 
 const Team = () => {
   return (
-    <div className="bg-[#F9FFF3] grid-bg">
+    <div className="bg-[#F9FFF3] grid-bg py-10">
+      <Typography variant={"h3"} className="font-bold text-center">
+        Our <span className="font-playfair italic text-primary">Teams</span>
+      </Typography>
       <LayoutWrapper className="grid-cols-2  gap-8 place-items-center">
         {TEAM.slice(0, 2).map((person) => (
           <PersonCard {...person} key={person.name} />
