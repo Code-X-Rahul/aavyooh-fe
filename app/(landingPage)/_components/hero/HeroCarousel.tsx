@@ -80,7 +80,10 @@ const HeroCarousel = () => {
     >
       <CarouselContent>
         {IMAGES.map(({ src, alt, title, description }) => (
-          <CarouselItem key={src} className="grid place-items-center gap-4">
+          <CarouselItem
+            key={src}
+            className="grid place-items-center gap-4 text-center"
+          >
             {title}
             {description}
             <div className="flex items-center gap-5">
