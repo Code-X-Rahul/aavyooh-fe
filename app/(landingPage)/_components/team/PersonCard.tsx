@@ -4,7 +4,6 @@ import { TeamPerson } from "./Team";
 
 const PersonCard = ({
   description,
-  linkedIn,
   name,
   position,
   image,
