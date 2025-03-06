@@ -1,10 +1,10 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import type { Metadata } from "next";
-import { Playfair_Display_SC } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display_SC({
+const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
   weight: ["400", "700", "900"],
