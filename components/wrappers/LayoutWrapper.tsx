@@ -9,7 +9,7 @@ const LayoutWrapper = ({
   return (
     <div
       className={cn(
-        "grid place-items-center gap-4 max-w-7xl mx-auto py-10",
+        "grid place-items-center gap-4 max-w-[1080px] mx-auto py-10",
         className
       )}
       {...props}
