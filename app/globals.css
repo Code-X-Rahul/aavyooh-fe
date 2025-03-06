@@ -156,3 +156,48 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
+/* 
+body {
+  background-color: white;
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.2) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.2) 2px,
+      transparent 2px
+    ),
+    linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 400px 400px;
+  z-index: -1;
+} */
+.grid-bg {
+  background-image: url("/seamless-dot-grid-pattern.svg");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+}
+/* body {
+  background-image: url("/seamless-dot-grid-pattern.svg");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+} */
+/* .grid-bg {
+  background-image: url("/dot-grid-pattern-dashed.svg");
+  background-repeat: repeat;
+  background-size: 50%;
+} */

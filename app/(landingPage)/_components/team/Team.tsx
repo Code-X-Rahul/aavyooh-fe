@@ -61,7 +61,7 @@ const TEAM: Array<TeamPerson> = [
 
 const Team = () => {
   return (
-    <div className="bg-[#F9FFF3]">
+    <div className="bg-[#F9FFF3] grid-bg">
       <LayoutWrapper className="grid-cols-2  gap-8 place-items-center">
         {TEAM.slice(0, 2).map((person) => (
           <PersonCard {...person} key={person.name} />

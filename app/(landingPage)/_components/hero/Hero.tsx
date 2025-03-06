@@ -3,9 +3,11 @@ import HeroCarousel from "./HeroCarousel";
 
 const Hero = () => {
   return (
-    <LayoutWrapper className="relative">
-      <HeroCarousel />
-    </LayoutWrapper>
+    <div className="relative grid-bg">
+      <LayoutWrapper className="relative">
+        <HeroCarousel />
+      </LayoutWrapper>
+    </div>
   );
 };
 
