@@ -8,15 +8,15 @@ import {
 
 const IMAGES = [
   {
-    src: "hero.svg",
+    src: "/hero.svg",
     alt: "Hero Icon",
   },
   {
-    src: "hero2.svg",
+    src: "/hero2.svg",
     alt: "Hero Icon",
   },
   {
-    src: "hero3.svg",
+    src: "/hero3.svg",
     alt: "Hero Icon",
   },
 ];
