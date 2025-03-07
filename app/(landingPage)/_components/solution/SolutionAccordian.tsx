@@ -20,13 +20,13 @@ const SolutionAccordian = () => {
               Procurement through automated supplier assessment.
             </Typography>
 
-            <Typography variant={"span"}>Output:</Typography>
+            <Typography variant={"footnote"}>Output:</Typography>
             <div className="flex flex-col gap-1">
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 1. 30% Reduction in{" "}
                 <span className="font-bold">untracked waste emissions.</span>
               </Typography>
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 2. 40% More{" "}
                 <span className="font-bold">Efficient Procurement</span> through
                 automated supplier assessment.
@@ -43,15 +43,15 @@ const SolutionAccordian = () => {
               operational data.
             </Typography>
 
-            <Typography variant={"span"}>Output:</Typography>
+            <Typography variant={"footnote"}>Output:</Typography>
             <div className="flex flex-col gap-1">
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 1. 15% Improvement in{" "}
                 <span className="font-bold">
                   material efficiency through optimized resource allocation.
                 </span>
               </Typography>
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 2. 35% Faster <span className="font-bold">Response Time</span>{" "}
                 to supply chain disruptions using AI-generated predictive
                 analytics.
@@ -69,15 +69,15 @@ const SolutionAccordian = () => {
               predictive demand forecasting.
             </Typography>
 
-            <Typography variant={"span"}>Output:</Typography>
+            <Typography variant={"footnote"}>Output:</Typography>
             <div className="flex flex-col gap-1">
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 1. Up to 50% Scrap Material Reduction using{" "}
                 <span className="font-bold">
                   AI-driven production planning.
                 </span>
               </Typography>
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 2. 40% Reduced <span className="font-bold">Lead Time</span> by
                 optimizing logistics and material flow.
               </Typography>
@@ -94,15 +94,15 @@ const SolutionAccordian = () => {
               increasing efficiency.
             </Typography>
 
-            <Typography variant={"span"}>Output:</Typography>
+            <Typography variant={"footnote"}>Output:</Typography>
             <div className="flex flex-col gap-1">
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 1. Up to 300% ROI{" "}
                 <span className="font-bold">
                   within 5 years from sustainability-driven cost savings.
                 </span>
               </Typography>
-              <Typography variant={"span"}>
+              <Typography variant={"footnote"}>
                 2. 100% Compliance with{" "}
                 <span className="font-bold">New Sustainability</span>{" "}
                 Regulations via automated tracking.
