@@ -13,7 +13,7 @@ const IMAGES = [
   {
     title: (
       <div className="grid place-items-center">
-        <Typography variant={"h1"} className="font-bold max-w-prose">
+        <Typography variant={"h1"} className="font-bold max-w-3/4">
           <span className="font-playfair italic text-primary">
             Close the Loop{" "}
           </span>
@@ -34,7 +34,7 @@ const IMAGES = [
   {
     title: (
       <div className="grid place-items-center">
-        <Typography variant={"h1"} className="font-bold max-w-prose">
+        <Typography variant={"h1"} className="font-bold max-w-3/4">
           <span className="font-playfair italic text-primary">See Beyond </span>
           – Gain Unparalleled Visibility
         </Typography>
@@ -53,7 +53,7 @@ const IMAGES = [
   {
     title: (
       <div className="grid place-items-center">
-        <Typography variant={"h1"} className="font-bold max-w-prose">
+        <Typography variant={"h1"} className="font-bold max-w-3/4">
           <span className="font-playfair italic text-primary">Stay Agile </span>
           – Adapt to the Future
         </Typography>
@@ -83,7 +83,7 @@ const HeroCarousel = () => {
         {IMAGES.map(({ src, alt, title, description, tag }) => (
           <CarouselItem
             key={src}
-            className="grid place-items-center gap-4 text-center"
+            className="grid place-items-center gap-5 text-center"
           >
             <Typography
               variant={"p"}

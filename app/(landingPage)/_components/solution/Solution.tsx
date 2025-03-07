@@ -7,7 +7,7 @@ import SolutionCarausel from "./SolutionCarausel";
 const Solution = () => {
   return (
     <div className="">
-      <LayoutWrapper className="gap-5">
+      <LayoutWrapper className="gap-6">
         <div className="flex gap-2">
           <Typography
             variant={"h3"}
@@ -29,7 +29,7 @@ const Solution = () => {
           operations.
         </Typography>
 
-        <div className="grid grid-cols-[65%_1fr] gap-5">
+        <div className="grid grid-cols-[65%_1fr] gap-6 place-items-start">
           <SolutionCarausel />
           <SolutionAccordian />
         </div>

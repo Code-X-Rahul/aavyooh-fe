@@ -41,7 +41,7 @@ const CHALLENGES = [
 const Challenges = () => {
   return (
     <div className="bg-primary-background">
-      <LayoutWrapper className="gap-5">
+      <LayoutWrapper className="gap-6">
         <div className="flex gap-2">
           <Typography
             variant={"h3"}
@@ -93,7 +93,7 @@ const Challenges = () => {
           {CHALLENGES.map((challenge) => (
             <div
               key={challenge.title}
-              className="group relative flex flex-col gap-0.5  items-center justify-center text-primary-foreground border-2 border-dashed border-primary px-5 py-6 bg-[#FFFFFF08] h-64 overflow-hidden transition-all duration-300 ease-in-out hover:cursor-pointer"
+              className="group relative flex flex-col gap-0.5  items-center justify-center text-primary-foreground border-2 border-dashed border-[#466357] px-5 py-6 bg-[#FFFFFF08] h-64 overflow-hidden transition-all duration-300 ease-in-out hover:cursor-pointer"
             >
               {/* Using the group class as a peer trigger */}
               <div className="flex flex-col gap-2 items-center transition-all duration-300 ease-in-out group-hover:scale-90 group-hover:-translate-y-2">

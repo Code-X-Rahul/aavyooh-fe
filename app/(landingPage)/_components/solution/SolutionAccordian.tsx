@@ -8,9 +8,9 @@ import { Typography } from "@/components/ui/typography";
 
 const SolutionAccordian = () => {
   return (
-    <div>
-      <Accordion type="single" collapsible>
-        <AccordionItem value="item-1">
+    <div className="w-full">
+      <Accordion defaultValue="Build" type="single" collapsible>
+        <AccordionItem value="Build">
           <AccordionTrigger>Build</AccordionTrigger>
           <AccordionContent>
             <Typography variant={"footnote"} className="leading-[24px]">

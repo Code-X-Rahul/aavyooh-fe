@@ -62,7 +62,7 @@ const TEAM: Array<TeamPerson> = [
 
 const Team = () => {
   return (
-    <div className="bg-[#F9FFF3] grid-bg py-10" id="team">
+    <div className="bg-[#F9FFF3] grid-bg bg-blend-multiply py-10" id="team">
       <Typography variant={"h3"} className="font-bold text-center">
         Our <span className="font-playfair italic text-primary">Teams</span>
       </Typography>

@@ -6,7 +6,7 @@ import React from "react";
 const Strategy = () => {
   return (
     <div className="bg-primary-background">
-      <LayoutWrapper className="gap-5">
+      <LayoutWrapper>
         <div className="flex gap-2">
           <Typography
             variant={"h3"}
@@ -34,7 +34,7 @@ const Strategy = () => {
           operations.
         </Typography>
 
-        <div className="grid md:grid-cols-2 gap-5">
+        <div className="grid md:grid-cols-[45%_1fr] gap-5">
           <div className="flex flex-col gap-5 bg-[#4A6758] px-10 pt-5 rounded-md overflow-hidden">
             <Typography
               variant={"h5"}
@@ -94,7 +94,7 @@ const Strategy = () => {
               height={0}
               loading="lazy"
               layout="responsive"
-              className="max-w-[424px] pointer-events-none"
+              className="max-w-[424px] pointer-events-none ml-auto"
             />
             <Typography
               variant={"h5"}

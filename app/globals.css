@@ -75,7 +75,8 @@
   --card-foreground: oklch(0.141 0.005 285.823);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.141 0.005 285.823);
-  --primary: oklch(42.51830298416375% 0.087 153.2796452913782);
+  /* --primary: oklch(42.51830298416375% 0.087 153.2796452913782); */
+  --primary: #436252;
   /* --primary: oklch(46.68% 0.045 161.52); */
   --primary-foreground: oklch(100% 0 0);
   --primary-background: oklch(28.59% 0.023 162.83);
@@ -150,10 +151,14 @@
   }
 }
 
+body {
+  font-family: Arial;
+}
+
 .glass {
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.4);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
