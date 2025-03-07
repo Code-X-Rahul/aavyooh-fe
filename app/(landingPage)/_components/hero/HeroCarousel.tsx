@@ -14,27 +14,6 @@ const IMAGES = [
     title: (
       <div className="grid place-items-center">
         <Typography variant={"h1"} className="font-bold max-w-3/4">
-          <span className="font-playfair italic text-primary">
-            Close the Loop{" "}
-          </span>
-          – Optimize Efficiency
-        </Typography>
-      </div>
-    ),
-    description: (
-      <Typography variant={"p"}>
-        Leverage real-time data and simulations to drive sustainable waste
-        reduction.
-      </Typography>
-    ),
-    tag: "Circularity",
-    src: "/hero.svg",
-    alt: "Hero Icon",
-  },
-  {
-    title: (
-      <div className="grid place-items-center">
-        <Typography variant={"h1"} className="font-bold max-w-3/4">
           <span className="font-playfair italic text-primary">See Beyond </span>
           – Gain Unparalleled Visibility
         </Typography>
@@ -67,6 +46,27 @@ const IMAGES = [
     ),
     tag: "Resilience",
     src: "/hero3.svg",
+    alt: "Hero Icon",
+  },
+  {
+    title: (
+      <div className="grid place-items-center">
+        <Typography variant={"h1"} className="font-bold max-w-3/4">
+          <span className="font-playfair italic text-primary">
+            Close the Loop{" "}
+          </span>
+          – Optimize Efficiency
+        </Typography>
+      </div>
+    ),
+    description: (
+      <Typography variant={"p"}>
+        Leverage real-time data and simulations to drive sustainable waste
+        reduction.
+      </Typography>
+    ),
+    tag: "Circularity",
+    src: "/hero.svg",
     alt: "Hero Icon",
   },
 ];
