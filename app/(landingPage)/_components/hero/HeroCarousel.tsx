@@ -77,7 +77,7 @@ const HeroCarousel = () => {
       opts={{
         loop: true,
       }}
-      className="grid place-items-center  -translate-y-5 mx-auto"
+      className="grid place-items-center mx-auto"
     >
       <CarouselContent>
         {IMAGES.map(({ src, alt, title, description, tag }) => (
@@ -99,7 +99,7 @@ const HeroCarousel = () => {
                 Contact Us
               </Button>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center -translate-y-5">
               <Image
                 width={0}
                 height={0}
@@ -108,7 +108,7 @@ const HeroCarousel = () => {
                 layout="responsive"
                 src={src}
                 alt={alt}
-                className="max-w-[800px] max-h-[450px]"
+                className="max-w-[850px] max-h-[500px]"
               />
             </div>
           </CarouselItem>
