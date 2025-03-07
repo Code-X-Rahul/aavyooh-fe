@@ -41,7 +41,7 @@ const CHALLENGES = [
 const Challenges = () => {
   return (
     <div className="bg-primary-background">
-      <LayoutWrapper className="gap-6">
+      <LayoutWrapper>
         <div className="flex gap-2">
           <Typography
             variant={"h3"}

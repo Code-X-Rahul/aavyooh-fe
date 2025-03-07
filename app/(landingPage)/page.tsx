@@ -17,7 +17,7 @@ export default function Home() {
       <Strategy />
 
       <Team />
-      <LayoutWrapper className="text-center lg:py-14 gap-5">
+      <LayoutWrapper className="text-center lg:py-14">
         <Typography variant={"h3"} className="font-bold max-w-prose">
           Ready to build a{" "}
           <span className="text-primary italic font-playfair">simulation</span>{" "}
