@@ -26,7 +26,7 @@ const IMAGES = [
       </Typography>
     ),
     tag: "Transparency",
-    src: "/hero2.svg",
+    src: "/hero2.png",
     alt: "Hero Icon",
   },
   {
@@ -45,7 +45,7 @@ const IMAGES = [
       </Typography>
     ),
     tag: "Resilience",
-    src: "/hero3.svg",
+    src: "/hero3.png",
     alt: "Hero Icon",
   },
   {
@@ -66,7 +66,7 @@ const IMAGES = [
       </Typography>
     ),
     tag: "Circularity",
-    src: "/hero.svg",
+    src: "/hero.png",
     alt: "Hero Icon",
   },
 ];
