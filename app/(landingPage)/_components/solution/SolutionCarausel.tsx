@@ -26,20 +26,19 @@ const SolutionCarausel = () => {
       opts={{
         loop: true,
       }}
-      className="grid place-items-center mx-auto"
+      className="h-full w-full"
     >
-      <CarouselContent>
+      <CarouselContent className="">
         {IMAGES.map(({ src, alt }) => (
-          <CarouselItem key={src} className=" flex items-center justify-center">
+          <CarouselItem key={src} className="max-w-full">
             <Image
               width={0}
               height={0}
               loading="lazy"
               fetchPriority="low"
-              layout="responsive"
               src={src}
               alt={alt}
-              className="max-w-full max-h-full"
+              className="min-w-full min-h-full object-contain"
             />
           </CarouselItem>
         ))}

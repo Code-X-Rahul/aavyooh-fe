@@ -7,7 +7,7 @@ import SolutionCarausel from "./SolutionCarausel";
 const Solution = () => {
   return (
     <div className="">
-      <LayoutWrapper className="gap-6">
+      <LayoutWrapper className="">
         <div className="flex gap-2">
           <Typography
             variant={"h3"}
@@ -28,12 +28,13 @@ const Solution = () => {
           for transforming the manufacturing network towards sustainable
           operations.
         </Typography>
-
-        <div className="grid grid-cols-[65%_1fr] gap-6 place-items-start">
-          <SolutionCarausel />
-          <SolutionAccordian />
-        </div>
       </LayoutWrapper>
+      {/* <LayoutWrapper className="max-w-full"> */}
+      <div className="grid lg:grid-cols-[65%_1fr] gap-6 max-w-[1350px] mx-auto pb-10">
+        <SolutionCarausel />
+        <SolutionAccordian />
+      </div>
+      {/* </LayoutWrapper> */}
     </div>
   );
 };
