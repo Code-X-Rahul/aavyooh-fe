@@ -15,9 +15,7 @@ const SolutionAccordian = () => {
           <AccordionContent>
             <Typography variant={"footnote"} className="leading-[24px]">
               Our AI-powered supplier mapping tool scans manufacturing networks
-              to identify inefficiencies, dependencies, and risks. Output: 30%
-              Reduction in untracked waste emissions. 40% More Efficient
-              Procurement through automated supplier assessment.
+              to identify inefficiencies, dependencies, and risks.
             </Typography>
 
             <Typography variant={"footnote"}>Output:</Typography>
