@@ -94,7 +94,7 @@ const Strategy = () => {
               height={0}
               loading="lazy"
               layout="responsive"
-              className="max-w-[424px]  pointer-events-none ml-auto hidden md:block"
+              className="max-w-[424px] absolute top-0 right-0 translate-x-2 translate-y-9 scale-120 pointer-events-none ml-auto hidden md:block"
             />
             <img
               src={"/teamwork.png"}
