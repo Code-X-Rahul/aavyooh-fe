@@ -8,8 +8,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="p-10 bg-primary-background">
-      <LayoutWrapper className="grid grid-cols-[30%_1fr] place-items-start">
+    <footer className="py-5 lg:p-10 bg-primary-background">
+      <LayoutWrapper className="grid md:grid-cols-[30%_1fr] place-items-start">
         <div className="flex flex-col gap-3">
           <Typography
             variant={"p"}

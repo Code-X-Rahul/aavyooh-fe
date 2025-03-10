@@ -7,7 +7,7 @@ import SolutionCarausel from "./SolutionCarausel";
 const Solution = () => {
   return (
     <div className="">
-      <LayoutWrapper className="">
+      <LayoutWrapper>
         <div className="flex gap-2">
           <Typography
             variant={"h3"}
@@ -30,7 +30,7 @@ const Solution = () => {
         </Typography>
       </LayoutWrapper>
       {/* <LayoutWrapper className="max-w-full"> */}
-      <div className="grid lg:grid-cols-[65%_1fr] gap-6 max-w-[1350px] mx-auto pb-10">
+      <div className="grid lg:grid-cols-[65%_1fr] gap-6 max-w-[1350px] mx-auto px-4 md:pb-5 pb-10">
         <SolutionCarausel />
         <SolutionAccordian />
       </div>

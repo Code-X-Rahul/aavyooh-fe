@@ -67,6 +67,9 @@
     }
   }
 }
+/* * {
+  outline: 2px solid red;
+} */
 
 :root {
   --background: oklch(1 0 0);
@@ -193,9 +196,17 @@ body::before {
   z-index: -1;
 } */
 .grid-bg {
-  background-image: url("/seamless-dot-grid-pattern.svg");
+  background-image: url("/bgaavyooh.svg");
+  /* background-image: url("/seamless-dot-grid-pattern.svg"); */
   background-repeat: repeat;
-  background-size: 200px 200px;
+  background-position: center center;
+  background-size: 100%;
+}
+.challenge-bg {
+  background-image: url("/challenges-bg.svg");
+  /* background-repeat: repeat; */
+  background-position: center center;
+  /* background-size: 100%; */
 }
 /* body {
   background-image: url("/seamless-dot-grid-pattern.svg");

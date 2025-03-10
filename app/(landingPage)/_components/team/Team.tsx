@@ -66,12 +66,12 @@ const Team = () => {
       <Typography variant={"h3"} className="font-bold text-center">
         Our <span className="font-playfair italic text-primary">Teams</span>
       </Typography>
-      <LayoutWrapper className="grid-cols-2  gap-8 place-items-center">
+      <LayoutWrapper className="md:grid-cols-2  gap-8 place-items-center pb-5">
         {TEAM.slice(0, 2).map((person) => (
           <PersonCard {...person} key={person.name} />
         ))}
       </LayoutWrapper>
-      <LayoutWrapper className="grid-cols-3 place-items-stretch gap-8">
+      <LayoutWrapper className="md:grid-cols-2 lg:grid-cols-3 place-items-stretch gap-8 pt-0">
         {TEAM.slice(2).map((person) => (
           <PersonCard {...person} key={person.name} />
         ))}

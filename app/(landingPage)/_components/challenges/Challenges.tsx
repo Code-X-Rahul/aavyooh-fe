@@ -40,8 +40,8 @@ const CHALLENGES = [
 
 const Challenges = () => {
   return (
-    <div className="bg-primary-background">
-      <LayoutWrapper>
+    <div className="bg-primary-background ">
+      <LayoutWrapper className="">
         <div className="flex gap-2">
           <Typography
             variant={"h3"}
@@ -66,7 +66,7 @@ const Challenges = () => {
           solutions
         </Typography>
 
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {/* {CHALLENGES.map((challenge) => (
             <div
               key={challenge.title}
@@ -93,7 +93,7 @@ const Challenges = () => {
           {CHALLENGES.map((challenge) => (
             <div
               key={challenge.title}
-              className="group relative flex flex-col gap-0.5  items-center justify-center text-primary-foreground border-2 border-dashed border-[#466357] px-5 py-6 bg-[#FFFFFF08] h-64 overflow-hidden transition-all duration-300 ease-in-out hover:cursor-pointer"
+              className="group relative flex flex-col gap-0.5 translate-y-2  items-center justify-center text-primary-foreground  px-5 py-6 bg-[#FFFFFF08]  overflow-hidden transition-all duration-300 ease-in-out hover:cursor-pointer min-h-64"
             >
               {/* Using the group class as a peer trigger */}
               <div className="flex flex-col gap-2 items-center transition-all duration-300 ease-in-out group-hover:scale-90 group-hover:-translate-y-2">
@@ -108,7 +108,7 @@ const Challenges = () => {
                 </div>
                 <Typography
                   variant={"p"}
-                  className="font-bold text-primary-foreground text-center mt-3 transition-all duration-300 ease-in-out group-hover:text-sm group-hover:mt-1"
+                  className="text-base font-bold text-primary-foreground text-center mt-3 transition-all duration-300 ease-in-out group-hover:text-sm group-hover:mt-1 sm:text-sm"
                 >
                   {challenge.title}
                 </Typography>

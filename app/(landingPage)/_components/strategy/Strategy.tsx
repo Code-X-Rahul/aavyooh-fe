@@ -6,8 +6,8 @@ import React from "react";
 const Strategy = () => {
   return (
     <div className="bg-primary-background">
-      <LayoutWrapper>
-        <div className="flex gap-2">
+      <LayoutWrapper className="pb-14">
+        <div className="flex flex-col md:flex-row text-center md:gap-2">
           <Typography
             variant={"h3"}
             className="font-bold  text-primary-foreground"
@@ -35,14 +35,14 @@ const Strategy = () => {
         </Typography>
 
         <div className="grid md:grid-cols-[45%_1fr] gap-5">
-          <div className="flex flex-col gap-5 bg-[#4A6758] px-10 pt-5 rounded-md overflow-hidden">
+          <div className="flex flex-col gap-5 bg-[#4A6758] px-10 pt-5 rounded-md overflow-hidden min-h-[500px] md:min-h-auto">
             <Typography
               variant={"h5"}
               className="font-black font-playfair text-primary-foreground text-center"
             >
               R&D / Innovations
             </Typography>
-            <ul className="list-disc">
+            <ul className="list-disc text-xs md:text-base">
               <li className="text-primary-foreground leading-6 font-bold">
                 12+ Years of Cutting-Edge Research in Dr. Shweta Singh’s Lab
               </li>
@@ -64,7 +64,7 @@ const Strategy = () => {
                 height={0}
                 loading="lazy"
                 layout="responsive"
-                className="max-w-[422px] max-h-[312px] pointer-events-none"
+                className="max-h-full max-w-full md:max-w-[422px] md:max-h-[312px] pointer-events-none"
               />
               <Image
                 src={"/lady.svg"}
@@ -73,7 +73,7 @@ const Strategy = () => {
                 height={0}
                 loading="lazy"
                 layout="responsive"
-                className="max-w-[307px] max-h-[292px] z-20 absolute pointer-events-none"
+                className="md:max-w-[307px] max-h-[292px] z-20 absolute pointer-events-none"
               />
               <Image
                 src={"/lady-fill.svg"}
@@ -86,7 +86,7 @@ const Strategy = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col items-center gap-5 bg-[#4A6758] px-10 pb-5 rounded-md overflow-hidden">
+          <div className="relative flex flex-col items-center justify-end min-h-[500px] gap-5 bg-[#4A6758] px-10 pb-10 md:pb-5 rounded-md overflow-hidden md:min-h-auto">
             <Image
               src={"/teamwork.svg"}
               alt="Industry Integration"
@@ -94,20 +94,32 @@ const Strategy = () => {
               height={0}
               loading="lazy"
               layout="responsive"
-              className="max-w-[424px] pointer-events-none ml-auto"
+              className="max-w-[424px]  pointer-events-none ml-auto hidden md:block"
+            />
+            <img
+              src={"/teamwork.png"}
+              alt="Industry Integration"
+              // width={0}
+              // height={0}
+              loading="lazy"
+              // layout="responsive"
+              className="absolute top-0 right-0 pointer-events-none md:hidden"
+              // className="absolute translate-x-2 translate-y-10 scale-120 pointer-events-none ml-auto md:hidden"
             />
             <Typography
               variant={"h5"}
-              className="font-black font-playfair text-primary-foreground text-center -mt-14"
+              className="font-black font-playfair text-primary-foreground text-center md:-mt-14"
             >
               Industry Integration
             </Typography>
             <Typography
               variant={"p"}
-              className=" text-center text-primary-foreground max-w-2/3 "
+              className=" text-center text-primary-foreground md:max-w-2/3 "
             >
-              Providing solutions for leading Fortune 500 global Pharmaceutical
-              companies
+              Providing solutions for{" "}
+              <span className="font-bold">
+                leading Fortune 500 global Pharmaceutical companies
+              </span>
             </Typography>
           </div>
         </div>
