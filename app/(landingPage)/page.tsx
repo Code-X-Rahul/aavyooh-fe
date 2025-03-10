@@ -6,12 +6,14 @@ import Hero from "./_components/hero/Hero";
 import Solution from "./_components/solution/Solution";
 import Strategy from "./_components/strategy/Strategy";
 import Team from "./_components/team/Team";
+import Design from "./_components/design/Design";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Challenges />
+      <Design />
       <Solution />
 
       <Strategy />
