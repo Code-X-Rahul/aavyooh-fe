@@ -94,48 +94,46 @@ const HeroCarousel = () => {
       className="grid place-items-center mx-auto overflow-hidden text-wrap"
     >
       <CarouselContent>
-        {IMAGES.map(
-          ({ src, alt, title, description, tag, width, translate }) => (
-            <CarouselItem
-              key={src}
-              className="flex flex-col items-center justify-center gap-5 text-center "
+        {IMAGES.map(({ src, alt, title, description, tag, translate }) => (
+          <CarouselItem
+            key={src}
+            className="flex flex-col items-center justify-center gap-5 text-center "
+          >
+            <Typography
+              variant={"p"}
+              className="bg-[#C6D2BB30] text-[#1A322F] px-4 py-2 rounded-full font-bold"
             >
-              <Typography
-                variant={"p"}
-                className="bg-[#C6D2BB30] text-[#1A322F] px-4 py-2 rounded-full font-bold"
-              >
-                {tag}
-              </Typography>
-              {title}
-              {description}
-              <div className="flex items-center gap-5">
-                <Button size={"xl"}>Know More</Button>
-                {/* <Button variant={"outline"} size={"xl"}>
+              {tag}
+            </Typography>
+            {title}
+            {description}
+            <div className="flex items-center gap-5">
+              <Button size={"xl"}>Know More</Button>
+              {/* <Button variant={"outline"} size={"xl"}>
                   Contact Us
                 </Button> */}
-              </div>
-              {/* <div className="flex items-center justify-center -translate-y-5 h-full w-full grow shrink-0"> */}
-              {/* <div className="w-full h-full grow shrink-0"> */}
-              <img
-                loading="lazy"
-                fetchPriority="low"
-                // layout="responsive"
-                src={src}
-                alt={alt}
-                // fill={true}
-                // className="w-full h-full object-contain"
-                // className="max-w-[850px] max-h-[500px]"
-                className={cn("md:w-auto md:h-auto object-contain")}
-                style={{
-                  // maxWidth: width,
-                  transform: "translateY(" + translate + ")",
-                }}
-              />
-              {/* </div> */}
-              {/* </div> */}
-            </CarouselItem>
-          )
-        )}
+            </div>
+            {/* <div className="flex items-center justify-center -translate-y-5 h-full w-full grow shrink-0"> */}
+            {/* <div className="w-full h-full grow shrink-0"> */}
+            <img
+              loading="lazy"
+              fetchPriority="low"
+              // layout="responsive"
+              src={src}
+              alt={alt}
+              // fill={true}
+              // className="w-full h-full object-contain"
+              // className="max-w-[850px] max-h-[500px]"
+              className={cn("md:w-auto md:h-auto object-contain")}
+              style={{
+                // maxWidth: width,
+                transform: "translateY(" + translate + ")",
+              }}
+            />
+            {/* </div> */}
+            {/* </div> */}
+          </CarouselItem>
+        ))}
       </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />
