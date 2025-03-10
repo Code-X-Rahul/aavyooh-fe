@@ -22,7 +22,7 @@ const IMAGES = [
       </div>
     ),
     description: (
-      <Typography variant={"p"} className="max-w-svw">
+      <Typography variant={"h6"} className="max-w-svw">
         Automate in-depth mapping, track upstream suppliers, and monitor
         emissions with AI-driven insights.
       </Typography>
@@ -43,7 +43,7 @@ const IMAGES = [
       </div>
     ),
     description: (
-      <Typography variant={"p"} className="max-w-svw">
+      <Typography variant={"h6"} className="max-w-svw">
         Design alternate pathways, strengthen supply networks, and future-proof
         your business.
       </Typography>
@@ -66,7 +66,7 @@ const IMAGES = [
       </div>
     ),
     description: (
-      <Typography variant={"p"} className="max-w-svw">
+      <Typography variant={"h6"} className="max-w-svw">
         Keep materials flowing, increase profitability, and build a sustainable
         manufacturing ecosystem.
       </Typography>
