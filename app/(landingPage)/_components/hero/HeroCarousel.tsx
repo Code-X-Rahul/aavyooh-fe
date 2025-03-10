@@ -8,7 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Typography } from "@/components/ui/typography";
-import { cn } from "@/lib/utils";
+import { cn, handleScroll } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 
 const IMAGES = [
@@ -108,7 +108,9 @@ const HeroCarousel = () => {
             {title}
             {description}
             <div className="flex items-center gap-5">
-              <Button size={"xl"}>Know More</Button>
+              <Button size={"xl"} onClick={() => handleScroll("challenges")}>
+                Know More
+              </Button>
               {/* <Button variant={"outline"} size={"xl"}>
                   Contact Us
                 </Button> */}

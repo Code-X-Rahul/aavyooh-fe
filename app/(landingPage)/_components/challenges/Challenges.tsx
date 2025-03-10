@@ -40,7 +40,7 @@ const CHALLENGES = [
 
 const Challenges = () => {
   return (
-    <div className="bg-primary-background ">
+    <div className="bg-primary-background " id="challenges">
       <LayoutWrapper className="">
         <div className="flex gap-2">
           <Typography
