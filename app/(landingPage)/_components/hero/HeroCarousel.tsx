@@ -23,8 +23,8 @@ const IMAGES = [
     ),
     description: (
       <Typography variant={"p"} className="max-w-svw">
-        Automate in-depth mapping, track material flow, and monitor emissions
-        with AI-driven insights.
+        Automate in-depth mapping, track upstream suppliers, and monitor
+        emissions with AI-driven insights.
       </Typography>
     ),
     tag: "Transparency",
@@ -44,8 +44,8 @@ const IMAGES = [
     ),
     description: (
       <Typography variant={"p"} className="max-w-svw">
-        Automate in-depth mapping, track material flow, and monitor emissions
-        with AI-driven insights.
+        Design alternate pathways, strengthen supply networks, and future-proof
+        your business.
       </Typography>
     ),
     tag: "Resilience",
@@ -67,8 +67,8 @@ const IMAGES = [
     ),
     description: (
       <Typography variant={"p"} className="max-w-svw">
-        Leverage real-time data and simulations to drive sustainable waste
-        reduction.
+        Keep materials flowing, increase profitability, and build a sustainable
+        manufacturing ecosystem.
       </Typography>
     ),
     tag: "Circularity",

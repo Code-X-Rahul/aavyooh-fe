@@ -53,7 +53,8 @@ const Strategy = () => {
                 1 US Patent Pending – Pioneering Breakthroughs in the Field
               </li>
               <li className="text-primary-foreground leading-6 font-bold">
-                Backed by multimillion dollar grants
+                Backed by multimillion dollar grants from US National Science
+                Foundation
               </li>
             </ul>
             <div className="relative flex justify-end">

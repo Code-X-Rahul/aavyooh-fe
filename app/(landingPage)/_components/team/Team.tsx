@@ -17,16 +17,16 @@ const TEAM: Array<TeamPerson> = [
     name: "Vish Narayanan",
     position: "Co-founder and CEO",
     description:
-      "Vish has over 20 years of leadership experience in supply chain management. As the CEO of Aavyooh, he leads with a vision to implement innovative solutions that promote sustainability across the manufacturing sector, ensuring that Aavyooh's efforts make a significant impact globally.",
+      "Vish is a seasoned business leader with over 30 years of experience at General Motors in fostering technology-based innovation for business outcomes such as supply chain optimization, just-in-time manufacturing and production processes. He is leading the business growth and strategy for Aavyooh to deliver solutions to industries.",
     linkedIn: "",
     image: "/team/vish_new.jpg",
     imageType: "cover",
   },
   {
     name: "Shweta Singh",
-    position: "Co-founder",
+    position: "Co-founder & CTO",
     description:
-      "Shweta brings her expertise in financial strategy and operations to ensure that  Aavyooh’s initiatives are financially sound and focused on long-term sustainability. With over a decade of experience in research and innovation, she is a driving force behind the company's mission.",
+      "Dr. Singh is an Associate Professor at Purdue University and co-inventor of mechanistic approach that inspires this company. She is leading development of core algorithms and the functionalities for automating the creation of simulation models of Manufacturing Networks",
     linkedIn: "",
     image: "/team/shweta.jpg",
     imageType: "cover",
@@ -35,25 +35,25 @@ const TEAM: Array<TeamPerson> = [
     name: "Samir Taylor",
     position: "Software Products Advisor",
     description:
-      "Samir lends his deep expertise in software development to Aavyooh, guiding the creation of cutting-edge technology for sustainable manufacturing. His advice helps to shape Aavyooh’s software solutions, making them both efficient and scalable.",
+      "Samir is an experienced SaaS product developer for manufacturing industries, having built and commercialized many applications that align with industry 4.0 vision. He leads the creation of cutting-edge technology for sustainable manufacturing.",
     linkedIn: "",
     image: "/team/samir.jpg",
     imageType: "cover",
   },
   {
     name: "Rich Helling",
-    position: "Sustainability Advisor",
+    position: "Industrial Advisor",
     description:
-      "With a keen focus on environmental impact, Rich is dedicated to advancing Aavyooh’s sustainability goals. He ensures that the company's strategies in waste reduction and emission control are grounded in innovative, eco-friendly practices.",
+      "Dr. Helling is an independent consultant, retired from Dow Chemical after 30+ years of experience in leadership roles working on sustainability in the chemical manufacturing industry.",
     linkedIn: "",
     image: "/team/rich.jpg",
     imageType: "cover",
   },
   {
     name: "Cassandra Telenko",
-    position: "Advisor",
+    position: "Industrial Advisor",
     description:
-      "Cassandra’s expertise in sustainable technologies helps Aavyooh stay ahead of the curve. She integrates the latest advancements in environmental technology into Aavyooh's mission, pushing the boundaries of what’s possible in sustainable manufacturing.",
+      "Dr. Telenko is a sustainability expert and currently at Ford Motor Company leading data tools for innovation in supply chain and material cost analysis. She will be advising on the growth strategy for technology.",
     linkedIn: "",
     image: "/team/cassandra.jpg",
     imageType: "cover",
