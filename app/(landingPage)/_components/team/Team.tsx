@@ -19,8 +19,8 @@ const TEAM: Array<TeamPerson> = [
     description:
       "Vish has over 20 years of leadership experience in supply chain management. As the CEO of Aavyooh, he leads with a vision to implement innovative solutions that promote sustainability across the manufacturing sector, ensuring that Aavyooh's efforts make a significant impact globally.",
     linkedIn: "",
-    image: "/team/vish.jpg",
-    imageType: "contain",
+    image: "/team/vish_new.jpg",
+    imageType: "cover",
   },
   {
     name: "Shweta Singh",
