@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Typography } from "@/components/ui/typography";
+import LayoutWrapper from "@/components/wrappers/LayoutWrapper";
 import { cn, handleScroll } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 
@@ -91,9 +92,9 @@ const HeroCarousel = () => {
           delay: 4000,
         }),
       ]}
-      className="grid place-items-center mx-auto overflow-hidden text-wrap"
+      className="grid place-items-center mx-auto relative text-wrap"
     >
-      <CarouselContent>
+      <CarouselContent className="max-w-[1080px] py-10">
         {IMAGES.map(({ src, alt, title, description, tag, translate }) => (
           <CarouselItem
             key={src}
@@ -136,9 +137,10 @@ const HeroCarousel = () => {
             {/* </div> */}
           </CarouselItem>
         ))}
+        {/* <LayoutWrapper></LayoutWrapper> */}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="left-4" />
+      <CarouselNext className="right-4" />
     </Carousel>
   );
 };
