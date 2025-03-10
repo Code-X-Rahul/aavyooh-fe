@@ -73,7 +73,7 @@ const Strategy = () => {
               height={0}
               loading="lazy"
               layout="responsive"
-              className="md:hidden max-h-[292px] bottom-0 -right-14 scale-110 z-20 absolute pointer-events-none"
+              className="md:hidden max-h-[260px] sm:max-h-[292px] bottom-0 -right-10 sm:-right-16  z-20 absolute pointer-events-none"
             />
             <Image
               src={"/lady-fill.svg"}
@@ -82,7 +82,7 @@ const Strategy = () => {
               height={0}
               loading="lazy"
               layout="responsive"
-              className="md:hidden  max-h-[292px] z-10 absolute bottom-0 -right-20 scale-110 pointer-events-none"
+              className="md:hidden  max-h-[260px] sm:max-h-[292px] z-10 absolute bottom-0 -right-16 sm:-right-[88px]   pointer-events-none"
             />
             <div className="hidden md:flex relative justify-end">
               <Image
