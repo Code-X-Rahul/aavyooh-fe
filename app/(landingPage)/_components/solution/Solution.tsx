@@ -8,17 +8,12 @@ const Solution = () => {
   return (
     <div className="">
       <LayoutWrapper>
-        <div className="flex gap-2">
-          <Typography
-            variant={"h3"}
-            className="font-playfair italic font-black text-primary"
-          >
+        <Typography variant={"h3"}>
+          <span className="font-playfair italic font-black text-primary">
             Solution
-          </Typography>
-          <Typography variant={"h3"} className="font-bold ">
-            Aavyooh
-          </Typography>
-        </div>
+          </span>{" "}
+          <span className="font-bold">Aavyooh</span>
+        </Typography>
 
         <Typography variant={"p"} className=" text-center">
           Aavyooh helps manufacturers to map nth tier manufacturing networks in
