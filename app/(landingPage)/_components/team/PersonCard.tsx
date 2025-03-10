@@ -8,6 +8,7 @@ const PersonCard = ({
   position,
   image,
   imageType,
+  linkedIn,
 }: TeamPerson) => {
   return (
     <div className="rounded-md flex flex-col gap-3 bg-white border border-[#E7EAEE] max-w-[520px]">
@@ -32,7 +33,9 @@ const PersonCard = ({
           >
             {name}
           </Typography>
-          <Image src="/linkedin.svg" alt="linkedin" width={18} height={18} />
+          <a target="_blank" rel="noreferrer" href={linkedIn}>
+            <Image src="/linkedin.svg" alt="linkedin" width={18} height={18} />
+          </a>
         </div>
         <Typography variant={"span"} className="font-bold">
           {position}

@@ -18,7 +18,7 @@ const TEAM: Array<TeamPerson> = [
     position: "Co-founder and CEO",
     description:
       "Vish is a seasoned business leader with over 30 years of experience at General Motors in fostering technology-based innovation for business outcomes such as supply chain optimization, just-in-time manufacturing and production processes. He is leading the business growth and strategy for Aavyooh to deliver solutions to industries.",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/vish-narayanan-155814/",
     image: "/team/vish_new.jpg",
     imageType: "cover",
   },
@@ -27,7 +27,7 @@ const TEAM: Array<TeamPerson> = [
     position: "Co-founder & CTO",
     description:
       "Dr. Singh is an Associate Professor at Purdue University and co-inventor of mechanistic approach that inspires this company. She is leading development of core algorithms and the functionalities for automating the creation of simulation models of Manufacturing Networks",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/shweta-singh-9695a95/",
     image: "/team/shweta.jpg",
     imageType: "cover",
   },
@@ -36,7 +36,7 @@ const TEAM: Array<TeamPerson> = [
     position: "Software Products Advisor",
     description:
       "Samir is an experienced SaaS product developer for manufacturing industries, having built and commercialized many applications that align with industry 4.0 vision. He leads the creation of cutting-edge technology for sustainable manufacturing.",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/samirtaylor/",
     image: "/team/samir.jpg",
     imageType: "cover",
   },
@@ -45,7 +45,7 @@ const TEAM: Array<TeamPerson> = [
     position: "Industrial Advisor",
     description:
       "Dr. Helling is an independent consultant, retired from Dow Chemical after 30+ years of experience in leadership roles working on sustainability in the chemical manufacturing industry.",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/richard-helling-5094a6/",
     image: "/team/rich.jpg",
     imageType: "cover",
   },
@@ -54,7 +54,7 @@ const TEAM: Array<TeamPerson> = [
     position: "Industrial Advisor",
     description:
       "Dr. Telenko is a sustainability expert and currently at Ford Motor Company leading data tools for innovation in supply chain and material cost analysis. She will be advising on the growth strategy for technology.",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/cassandratelenko/",
     image: "/team/cassandra.jpg",
     imageType: "cover",
   },
