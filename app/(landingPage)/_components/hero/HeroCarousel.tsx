@@ -8,7 +8,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Typography } from "@/components/ui/typography";
-import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
 
 const IMAGES = [
