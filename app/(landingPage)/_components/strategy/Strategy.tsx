@@ -34,8 +34,8 @@ const Strategy = () => {
           operations.
         </Typography>
 
-        <div className="grid md:grid-cols-[45%_1fr] gap-5">
-          <div className="flex flex-col gap-5 bg-[#4A6758] px-10 pt-5 rounded-md overflow-hidden min-h-[500px] md:min-h-auto">
+        <div className=" grid md:grid-cols-[45%_1fr] gap-5">
+          <div className="relative flex flex-col gap-5 bg-[#4A6758] px-10 pt-5 rounded-md overflow-hidden min-h-[500px] md:min-h-auto">
             <Typography
               variant={"h5"}
               className="font-black font-playfair text-primary-foreground text-center"
@@ -57,7 +57,34 @@ const Strategy = () => {
                 Foundation
               </li>
             </ul>
-            <div className="relative flex justify-end">
+            <Image
+              src={"/blob.svg"}
+              alt="R&D / Innovations"
+              width={0}
+              height={0}
+              loading="lazy"
+              layout="responsive"
+              className="md:hidden absolute w-full h-full scale-125 bottom-0 max-h-[292px] pointer-events-none"
+            />
+            <Image
+              src={"/lady.svg"}
+              alt="R&D / Innovations"
+              width={0}
+              height={0}
+              loading="lazy"
+              layout="responsive"
+              className="md:hidden max-h-[292px] bottom-0 -right-14 scale-110 z-20 absolute pointer-events-none"
+            />
+            <Image
+              src={"/lady-fill.svg"}
+              alt="R&D / Innovations"
+              width={0}
+              height={0}
+              loading="lazy"
+              layout="responsive"
+              className="md:hidden  max-h-[292px] z-10 absolute bottom-0 -right-20 scale-110 pointer-events-none"
+            />
+            <div className="hidden md:flex relative justify-end">
               <Image
                 src={"/blob.svg"}
                 alt="R&D / Innovations"
