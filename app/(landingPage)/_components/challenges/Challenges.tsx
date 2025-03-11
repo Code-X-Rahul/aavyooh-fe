@@ -93,11 +93,11 @@ const Challenges = () => {
           {CHALLENGES.map((challenge) => (
             <div
               key={challenge.title}
-              className="group relative flex flex-col gap-0.5 translate-y-2  items-center justify-center text-primary-foreground  px-5 py-6 bg-[#FFFFFF08]  overflow-hidden transition-all duration-300 ease-in-out hover:cursor-pointer min-h-64"
+              className="group relative flex flex-col gap-2 md:gap-0.5 translate-y-2  items-center justify-center text-primary-foreground  px-5 py-6 bg-[#FFFFFF08]  overflow-hidden transition-all duration-300 ease-in-out hover:cursor-pointer min-h-64"
             >
               {/* Using the group class as a peer trigger */}
-              <div className="flex flex-col gap-2 items-center transition-all duration-300 ease-in-out group-hover:scale-90 group-hover:-translate-y-2">
-                <div className="w-14 h-14 transition-all duration-300 ease-in-out group-hover:w-10 group-hover:h-10">
+              <div className="flex flex-col gap-2 items-center transition-all duration-300 ease-in-out md:group-hover:scale-90 md:group-hover:-translate-y-2">
+                <div className="w-14 h-14 transition-all duration-300 ease-in-out md:group-hover:w-10 md:group-hover:h-10">
                   <Image
                     width={56}
                     height={56}
@@ -108,13 +108,13 @@ const Challenges = () => {
                 </div>
                 <Typography
                   variant={"p"}
-                  className="text-base font-bold text-primary-foreground text-center mt-3 transition-all duration-300 ease-in-out group-hover:text-sm group-hover:mt-1 sm:text-sm"
+                  className="text-base font-bold text-primary-foreground text-center mt-3 transition-all duration-300 ease-in-out md:group-hover:text-sm md:group-hover:mt-1 sm:text-sm"
                 >
                   {challenge.title}
                 </Typography>
               </div>
 
-              <div className="overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 group-hover:max-h-48 group-hover:opacity-100">
+              <div className="overflow-hidden transition-all duration-300 ease-in-out md:max-h-0 md:opacity-0 md:group-hover:max-h-48 md:group-hover:opacity-100">
                 <Typography
                   variant={"p"}
                   className="text-primary-foreground text-center text-xs"
