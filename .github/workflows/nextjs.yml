@@ -49,7 +49,7 @@ jobs:
           version: 8
           run_install: false
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Build with Next.js
         run: pnpm run build
       - name: Upload artifact
