@@ -15,15 +15,14 @@ const Design = () => {
             </span>
           </Typography>
         </div>
-        <div>
+        <div className="relative">
           <Image
-            width={0}
-            height={0}
+            width={1080}
+            height={800}
             src={"/design.png"}
             alt="design"
-            className="pointer-events-none"
-            // fill={true}
-            layout="responsive"
+            className="pointer-events-none w-full h-full object-contain"
+            // layout="responsive"
             loading="lazy"
             fetchPriority="low"
           />
