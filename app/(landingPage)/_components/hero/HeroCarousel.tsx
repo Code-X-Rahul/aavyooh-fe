@@ -137,7 +137,11 @@ const HeroCarousel = () => {
             {title}
             {description}
             <div className="flex items-center gap-5">
-              <Button size={"xl"} onClick={() => handleScroll("challenges")}>
+              <Button
+                className="z-50"
+                size={"xl"}
+                onClick={() => handleScroll("challenges")}
+              >
                 Know More
               </Button>
             </div>
