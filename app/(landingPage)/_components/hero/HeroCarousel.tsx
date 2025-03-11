@@ -120,7 +120,7 @@ const HeroCarousel = () => {
           delay: 4000,
         }),
       ]}
-      className="grid place-items-center mx-auto relative text-wrap"
+      className="grid place-items-center mx-auto relative text-wrap px-0"
     >
       <CarouselContent className="max-w-[1080px] py-10">
         {IMAGES.map(({ title, description, tag, img }) => (
@@ -134,7 +134,7 @@ const HeroCarousel = () => {
             >
               {tag}
             </Typography>
-            {title}
+            <div className="max-w-full overflow-hidden">{title}</div>
             {description}
             <div className="flex items-center gap-5">
               <Button

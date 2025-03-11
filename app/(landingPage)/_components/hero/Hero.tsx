@@ -2,7 +2,7 @@ import HeroCarousel from "./HeroCarousel";
 
 const Hero = () => {
   return (
-    <div className="relative grid-bg">
+    <div className="relative grid-bg overflow-hidden">
       <HeroCarousel />
     </div>
   );
