@@ -19,7 +19,8 @@ const TEAM: Array<TeamPerson> = [
     description:
       "Vish is a seasoned business leader with over 30 years of experience at General Motors in fostering technology-based innovation for business outcomes such as supply chain optimization, just-in-time manufacturing and production processes. He is leading the business growth and strategy for Aavyooh to deliver solutions to industries.",
     linkedIn: "https://www.linkedin.com/in/vish-narayanan-155814/",
-    image: "/team/vish_new.jpg",
+    image: "/team/vish_cropped.png",
+    // image: "/team/vish_new.jpg",
     imageType: "cover",
   },
   {
@@ -66,7 +67,7 @@ const Team = () => {
       <Typography variant={"h3"} className="font-bold text-center">
         Our <span className="font-playfair italic text-primary">Teams</span>
       </Typography>
-      <LayoutWrapper className="md:grid-cols-2  gap-8 place-items-center pb-5">
+      <LayoutWrapper className="md:grid-cols-2 gap-8 place-items-center pb-5">
         {TEAM.slice(0, 2).map((person) => (
           <PersonCard {...person} key={person.name} />
         ))}

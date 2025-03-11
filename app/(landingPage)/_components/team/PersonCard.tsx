@@ -11,7 +11,7 @@ const PersonCard = ({
   linkedIn,
 }: TeamPerson) => {
   return (
-    <div className="rounded-md flex flex-col gap-3 bg-white border border-[#E7EAEE] max-w-[520px]">
+    <div className="rounded-md flex flex-col gap-3 bg-white border border-[#E7EAEE] max-w-[520px] h-full">
       <div className="max-h-[280px] bg-primary flex items-center justify-center rounded-t-md">
         <Image
           src={image}
