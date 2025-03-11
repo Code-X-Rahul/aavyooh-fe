@@ -8,7 +8,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Typography } from "@/components/ui/typography";
-import LayoutWrapper from "@/components/wrappers/LayoutWrapper";
 import { cn, handleScroll } from "@/lib/utils";
 import Autoplay from "embla-carousel-autoplay";
 
@@ -23,16 +22,27 @@ const IMAGES = [
       </div>
     ),
     description: (
-      <Typography variant={"h6"} className="max-w-svw">
+      <Typography variant={"h6"} className="max-w-svw px-5 md:px-0">
         Automate in-depth mapping, track upstream suppliers, and monitor
         emissions with AI-driven insights.
       </Typography>
     ),
     tag: "Transparency",
-    src: "/hero2.png",
-    alt: "Hero Icon",
-    width: "90%",
-    translate: "-40px",
+    img: (
+      <div className="">
+        <img
+          loading="lazy"
+          fetchPriority="low"
+          // layout="responsive"
+          src={"/hero2.png"}
+          alt={"hero2 Icon"}
+          className={cn("md:w-full md:h-full object-contain")}
+          style={{
+            transform: "translateY(-20px)",
+          }}
+        />
+      </div>
+    ),
   },
   {
     title: (
@@ -44,16 +54,24 @@ const IMAGES = [
       </div>
     ),
     description: (
-      <Typography variant={"h6"} className="max-w-svw">
+      <Typography variant={"h6"} className="max-w-svw px-5 md:px-0">
         Design alternate pathways, strengthen supply networks, and future-proof
         your business.
       </Typography>
     ),
     tag: "Resilience",
-    src: "/hero3.png",
-    alt: "Hero Icon",
-    width: "60%",
-    translate: "-20px",
+    img: (
+      <div className="px-10 md:px-0">
+        <img
+          loading="lazy"
+          fetchPriority="low"
+          // layout="responsive"
+          src={"/hero3.png"}
+          alt={"hero3 Icon"}
+          className={cn("md:w-full md:h-full object-contain")}
+        />
+      </div>
+    ),
   },
   {
     title: (
@@ -67,16 +85,26 @@ const IMAGES = [
       </div>
     ),
     description: (
-      <Typography variant={"h6"} className="max-w-svw">
+      <Typography variant={"h6"} className="max-w-svw px-5 md:px-0">
         Keep materials flowing, increase profitability, and build a sustainable
         manufacturing ecosystem.
       </Typography>
     ),
     tag: "Circularity",
-    src: "/hero.png",
-    alt: "Hero Icon",
-    width: "70%",
-    translate: "-20px",
+    img: (
+      <div className="px-10 md:px-0">
+        <img
+          loading="lazy"
+          fetchPriority="low"
+          // layout="responsive"
+          src={"/hero.png"}
+          alt={"Hero Icon"}
+          className={cn(
+            "md:w-full md:h-full object-contain -translate-y-4 md:-translate-y-16"
+          )}
+        />
+      </div>
+    ),
   },
 ];
 
@@ -95,9 +123,9 @@ const HeroCarousel = () => {
       className="grid place-items-center mx-auto relative text-wrap"
     >
       <CarouselContent className="max-w-[1080px] py-10">
-        {IMAGES.map(({ src, alt, title, description, tag, translate }) => (
+        {IMAGES.map(({ title, description, tag, img }) => (
           <CarouselItem
-            key={src}
+            key={tag}
             className="flex flex-col items-center justify-center gap-5 text-center "
           >
             <Typography
@@ -112,32 +140,10 @@ const HeroCarousel = () => {
               <Button size={"xl"} onClick={() => handleScroll("challenges")}>
                 Know More
               </Button>
-              {/* <Button variant={"outline"} size={"xl"}>
-                  Contact Us
-                </Button> */}
             </div>
-            {/* <div className="flex items-center justify-center -translate-y-5 h-full w-full grow shrink-0"> */}
-            {/* <div className="w-full h-full grow shrink-0"> */}
-            <img
-              loading="lazy"
-              fetchPriority="low"
-              // layout="responsive"
-              src={src}
-              alt={alt}
-              // fill={true}
-              // className="w-full h-full object-contain"
-              // className="max-w-[850px] max-h-[500px]"
-              className={cn("md:w-auto md:h-auto object-contain")}
-              style={{
-                // maxWidth: width,
-                transform: "translateY(" + translate + ")",
-              }}
-            />
-            {/* </div> */}
-            {/* </div> */}
+            {img}
           </CarouselItem>
         ))}
-        {/* <LayoutWrapper></LayoutWrapper> */}
       </CarouselContent>
       <CarouselPrevious className="left-4" />
       <CarouselNext className="right-4" />
