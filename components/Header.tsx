@@ -8,7 +8,7 @@ const Header = () => {
       <Typography variant={"h5"} className="font-bold">
         Aavyooh
       </Typography>
-      <div className="flex items-center gap-5">
+      <div className="items-center gap-5 hidden md:flex">
         <ul>
           {[{ id: "team", label: "About Us" }].map((link) => (
             <HeaderLink key={link.id} link={link} />
