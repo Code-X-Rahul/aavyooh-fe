@@ -93,7 +93,7 @@ const Solution = () => {
           for transforming the manufacturing network towards sustainable
           operations.
         </Typography>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {solutions.map((solution) => (
             <SolutionCard
               key={solution.title}
