@@ -61,9 +61,10 @@ const Challenges = () => {
           variant={"p"}
           className="text-primary-foreground max-w-prose text-center"
         >
-          Manufacturing faces mounting challenges in sustainability, waste, and
-          climate impact. We help build resilient networks to find innovative
-          solutions
+          Manufacturing networks struggle with limited visibility, costly
+          disruptions, and excessive waste generation. We help build
+          transparent, resilient systems to transform your supply chain into a
+          sustainable competitive advantage.
         </Typography>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">

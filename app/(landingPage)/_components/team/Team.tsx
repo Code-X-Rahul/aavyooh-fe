@@ -65,7 +65,7 @@ const Team = () => {
   return (
     <div className="bg-[#F9FFF3] grid-bg bg-blend-multiply py-10" id="team">
       <Typography variant={"h3"} className="font-bold text-center">
-        Our <span className="font-playfair italic text-primary">Teams</span>
+        Our <span className="font-playfair italic text-primary">Team</span>
       </Typography>
       <LayoutWrapper className="md:grid-cols-2 gap-8 place-items-center pb-5">
         {TEAM.slice(0, 2).map((person) => (
