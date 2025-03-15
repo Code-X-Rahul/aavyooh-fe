@@ -76,7 +76,7 @@ const solutions = [
 
 const Solution = () => {
   return (
-    <div className="">
+    <div className="bg-[#F9FFF3] grid-bg bg-blend-multiply" id="solution">
       <LayoutWrapper>
         <Typography variant={"h3"}>
           <span className="font-playfair italic font-black text-primary">
