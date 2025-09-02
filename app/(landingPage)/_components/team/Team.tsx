@@ -59,6 +59,15 @@ const TEAM: Array<TeamPerson> = [
     image: "/team/cassandra.jpg",
     imageType: "cover",
   },
+  {
+    name: "Apoorva Bademi",
+    position: "Leading Sustainability Research and Data Analysis",
+    description:
+      "Apoorva Bademi earned her PhD in Sustainability with a focus on assessing the environmental and economic impacts of emerging industries. She has extensive experience applying diverse sustainability assessment methods, including life cycle analysis, input–output modeling, and material flow analysis. Her research and professional work integrate mechanistic modeling and process simulation to evaluate new technologies and manufacturing pathways. At Aavyooh, she is working on building algorithms that enable automation and scalability of sustainability modeling in manufacturing networks.",
+    linkedIn: "https://www.linkedin.com/in/apoorva-bademi/",
+    image: "/team/Apoorva Bademi Headshot.jpg",
+    imageType: "cover",
+  },
 ];
 
 const Team = () => {
@@ -67,13 +76,13 @@ const Team = () => {
       <Typography variant={"h3"} className="font-bold text-center">
         Our <span className="font-playfair italic text-primary">Team</span>
       </Typography>
-      <LayoutWrapper className="md:grid-cols-2 gap-8 place-items-center pb-5">
+      {/* <LayoutWrapper className="md:grid-cols-2 gap-8 place-items-center pb-5">
         {TEAM.slice(0, 2).map((person) => (
           <PersonCard {...person} key={person.name} />
         ))}
-      </LayoutWrapper>
-      <LayoutWrapper className="md:grid-cols-2 lg:grid-cols-3 place-items-stretch gap-8 pt-0">
-        {TEAM.slice(2).map((person) => (
+      </LayoutWrapper> */}
+      <LayoutWrapper className="md:grid-cols-2  place-items-stretch gap-8 pt-0">
+        {TEAM.map((person) => (
           <PersonCard {...person} key={person.name} />
         ))}
       </LayoutWrapper>
