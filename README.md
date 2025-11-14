@@ -1,6 +1,6 @@
 ### Prerequisites
 
-- Node.js 18.17 or later
+- Node.js 20.XX or later
 - npm, yarn, pnpm, or bun package manager
 
 ### Installation
